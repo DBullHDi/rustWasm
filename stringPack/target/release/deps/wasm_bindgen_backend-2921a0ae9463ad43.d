@@ -1,0 +1,10 @@
+\\?\C:\Users\FExJohn\Documents\dev\rustWasm\stringPack\target\release\deps\libwasm_bindgen_backend-2921a0ae9463ad43.rlib: C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\lib.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\error.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\ast.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\codegen.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\defined.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\util.rs
+
+\\?\C:\Users\FExJohn\Documents\dev\rustWasm\stringPack\target\release\deps\wasm_bindgen_backend-2921a0ae9463ad43.d: C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\lib.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\error.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\ast.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\codegen.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\defined.rs C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\util.rs
+
+C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\lib.rs:
+C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\error.rs:
+C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\ast.rs:
+C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\codegen.rs:
+C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\defined.rs:
+C:\Users\FExJohn\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-backend-0.2.25\src\util.rs:

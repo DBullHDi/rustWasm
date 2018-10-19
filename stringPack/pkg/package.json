@@ -1,0 +1,15 @@
+{
+  "name": "stringPack",
+  "collaborators": [
+    "Cata <ch_catalin@yahoo.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "stringPack_bg.wasm",
+    "stringPack.js",
+    "stringPack.d.ts"
+  ],
+  "module": "stringPack.js",
+  "types": "stringPack.d.ts",
+  "sideEffects": "false"
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rustWasm</title>
+    <!--because we are using webpack this pice of code will be loaded from index.js-->
+    <!--<script>-->
+        <!--// here we want to use wasm-bindgen to be able to have a hight level interaction between JS and RS.-->
+        <!--// this allows us to pass strings, objects , classes...-->
+        <!--const appendString = (value) => {-->
+            <!--const text = document.createTextNode(value);-->
+            <!--document.body.appendChild(text);-->
+        <!--};-->
+
+        <!--const importObject = {-->
+            <!--env: {-->
+                <!--appendString: appendString-->
+            <!--}-->
+        <!--};-->
+
+        <!--WebAssembly.instantiateStreaming(fetch('./stringPack.gc.wasm'), importObject)-->
+            <!--.then(wasmModule => {-->
+                <!--wasmModule.instance.exports.run();-->
+            <!--})-->
+
+    <!--</script>-->
+
+    <script src="./index.js"></script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rustWasm</title>
+
+    <script>
+
+        // JavaScript function to be called from rust
+        const appendNumber = (number) => {
+            const content = document.createTextNode(number);
+            document.body.appendChild(content);
+        };
+
+        const importFunction = {
+            env: {
+                appendNumber: appendNumber
+            }
+        };
+
+
+        //Here we are using instantiateStreaming to send importFunction to rust
+        WebAssembly.instantiateStreaming(fetch("utils.gc.wasm"), importFunction)
+
+        // If we use WebAssembly.instantiateStreaming the content type needs to be application/wasm
+        // and the following lines are not needed.
+        // fetch("utils.gc.wasm")
+        // .then(response => response.arrayBuffer())
+        // .then(result => WebAssembly.instantiate(result))
+            .then(wasmModule => {
+
+                // here we are using JavaScript for accessing a function from rust that has been compiled to wasm
+                const result = wasmModule.instance.exports.add_one(3);
+                const text = document.createTextNode(result);
+                document.body.appendChild(text);
+
+
+                // here we are using the function passed to rust
+                wasmModule.instance.exports.run();
+            })
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
